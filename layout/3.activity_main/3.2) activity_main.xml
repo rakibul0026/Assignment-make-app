@@ -1,0 +1,41 @@
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:editable="true"
+                android:padding="15dp"
+                android:text="asuoihdfjusdhf sdfuhusdfnds fsdohfusdf sdhfbsdfbsd fsdfsd fsuodfs dfusdbf"
+                android:textStyle="normal"
+                android:textColor="#01010F"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+        <EditText
+            android:fontFamily="@font/button"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:hint="Ask anything"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:background="@drawable/edit_back2"
+            android:layout_height="60dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
