@@ -1,24 +1,88 @@
 <TextView
-                android:fontFamily="@font/button"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="2"
-                android:text="Create professional or personalized emails fast"
-                android:textColor="@color/black"
-                android:textSize="10dp"/>
-        </LinearLayout>
+        android:fontFamily="@font/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Explore Discover Create"
+        android:textColor="#03030D"
+        android:textSize="40dp" />
 
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_margin="5dp"
-            android:layout_weight="0.5"
-            android:src="@drawable/right"/>
-    </LinearLayout>
+
+    <TextView
+        android:fontFamily="@font/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Services"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+      <LinearLayout
+          android:id="@+id/blog_part"
+          android:layout_width="match_parent"
+          android:layout_height="70dp"
+          android:layout_marginTop="10dp"
+          android:padding="2dp"
+          android:weightSum="6"
+          android:orientation="horizontal">
+
+          <ImageView
+          android:layout_width="0dp"
+          android:layout_height="60dp"
+              android:layout_margin="5dp"
+          android:layout_weight="0.5"
+          android:src="@drawable/blog"/>
+
+          <LinearLayout
+              android:layout_marginLeft="10dp"
+              android:layout_width="0dp"
+              android:layout_weight="5"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="5">
+              <TextView
+                  android:fontFamily="@font/button"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="3"
+                 android:layout_marginTop="10dp"
+                  android:text="Blog Writer"
+                  android:textColor="@color/black"
+                  android:textStyle="bold"
+                  android:textSize="23dp"/>
+
+              <TextView
+                  android:fontFamily="@font/button"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="2"
+                  android:text="Generate full blog posts from a topic and tone"
+                  android:textColor="@color/black"
+                  android:textSize="10dp"/>
+          </LinearLayout>
+
+          <ImageView
+              android:layout_width="0dp"
+              android:layout_height="60dp"
+              android:layout_margin="5dp"
+              android:layout_weight="0.5"
+              android:src="@drawable/right"/>
+      </LinearLayout>
 
 
     <LinearLayout
-        android:id="@+id/grammar_part"
+        android:id="@+id/gmail_part"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginTop="10dp"
@@ -31,7 +95,7 @@
             android:layout_height="60dp"
             android:layout_margin="5dp"
             android:layout_weight="0.5"
-            android:src="@drawable/search"/>
+            android:src="@drawable/create"/>
 
         <LinearLayout
             android:layout_marginLeft="10dp"
@@ -47,60 +111,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="3"
                 android:layout_marginTop="10dp"
-                android:text="Grammar Checker"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="23dp"/>
-
-            <TextView
-                android:fontFamily="@font/button"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="2"
-                android:text="Fix grammar, speling and punctuation error"
-                android:textColor="@color/black"
-                android:textSize="10dp"/>
-        </LinearLayout>
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_margin="5dp"
-            android:layout_weight="0.5"
-            android:src="@drawable/right"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/cv_part"
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:layout_marginTop="10dp"
-        android:padding="2dp"
-        android:weightSum="6"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_margin="5dp"
-            android:layout_weight="0.5"
-            android:src="@drawable/resume"/>
-
-        <LinearLayout
-            android:layout_marginLeft="10dp"
-            android:layout_width="0dp"
-            android:layout_weight="5"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:weightSum="5">
-
-            <TextView
-                android:fontFamily="@font/button"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="3"
-                android:layout_marginTop="10dp"
-                android:text="Resume/CV Writer"
+                android:text="Email Generator"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="23dp"/>
