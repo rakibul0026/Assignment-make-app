@@ -1,1 +1,102 @@
+<TextView
+                android:fontFamily="@font/button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text=" Craft engaging and informative historical narratives and accounts"
+                android:textColor="@color/black"
+                android:textSize="10dp"/>
+        </LinearLayout>
 
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/application"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:weightSum="6"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/application"/>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="5">
+            <TextView    android:fontFamily="@font/button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:layout_marginTop="10dp"
+                android:text="Application Writer"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:fontFamily="@font/button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text=" Develop compelling and persuasive applications for jobs, schools, or programs"
+                android:textColor="@color/black"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/letter"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:weightSum="6"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/mail"/>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="5">
+            <TextView
+                android:fontFamily="@font/button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:layout_marginTop="10dp"
+                android:text="Letter Writer"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
